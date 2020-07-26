@@ -974,7 +974,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "76",
-    "status": "",
+    "status": "ac",
     "title": "Minimum Window Substring",
     "titleSlug": "minimum-window-substring"
   },
@@ -3065,7 +3065,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "239",
-    "status": "",
+    "status": "ac",
     "title": "Sliding Window Maximum",
     "titleSlug": "sliding-window-maximum"
   },
