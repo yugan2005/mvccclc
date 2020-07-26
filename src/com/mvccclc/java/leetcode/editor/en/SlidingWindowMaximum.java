@@ -34,51 +34,51 @@
 // Related Topics Heap Sliding Window
 // 👍 3524 👎 170
 
-
 package com.mvccclc.java.leetcode.editor.en;
 
-import java.util.Comparator;
-import java.util.TreeMap;
+import java.util.ArrayDeque;
+import java.util.Arrays;
+import java.util.Deque;
 
 
-public class SlidingWindowMaximum{
-    public static void main(String[] args) {
-         Solution solution = new SlidingWindowMaximum().new Solution();
-    }
-    //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+public class SlidingWindowMaximum {
+  public static void main(String[] args) {
+    Solution solution = new SlidingWindowMaximum().new Solution();
+    int[] nums = new int[]{1, 3, -1, -3, 5, 3, 6, 7};
+    int k = 3;
+    System.out.println(Arrays.toString(solution.maxSlidingWindow(nums, k)));
+  }
+
+  //leetcode submit region begin(Prohibit modification and deletion)
+  class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
-        // 1. validate
-        if (nums == null || nums.length == 0 || nums.length < k) {
-            return null;
-        }
+      // 1. validate
+      if (nums == null || nums.length == 0 || nums.length < k) {
+        return null;
+      }
 
-        TreeMap<Integer, Integer> numCounter = new TreeMap<>(Comparator.reverseOrder());
-        int[] result = new int[nums.length - k + 1];
-        for (int i = 0; i < k; i++) {
-            update(numCounter, nums, i, true);
+      // Monotonic Queue
+      int[] result = new int[nums.length - k + 1];
+      Deque<Integer> decreasingQueue = new ArrayDeque<>();
+      for (int i = 0; i < k; i++) {
+        while (!decreasingQueue.isEmpty() && nums[i] > decreasingQueue.peekLast()) {
+          decreasingQueue.pollLast();
         }
-
-        for (int i = k; i < nums.length; i++) {
-            result[i-k] = numCounter.firstKey();
-            update(numCounter, nums, i, true);
-            update(numCounter, nums, i-k, false);
+        decreasingQueue.offerLast(nums[i]);
+      }
+      for (int i = 0; i < result.length - 1; i++) {
+        result[i] = decreasingQueue.peekFirst();
+        if (nums[i] == decreasingQueue.peekFirst()) {
+          decreasingQueue.pollFirst();
         }
-        result[nums.length - k] = numCounter.firstKey();
-        return result;
+        while (!decreasingQueue.isEmpty() && nums[i + k] > decreasingQueue.peekLast()) {
+          decreasingQueue.pollLast();
+        }
+        decreasingQueue.offerLast(nums[i + k]);
+      }
+      result[result.length - 1] = decreasingQueue.peekFirst();
+      return result;
     }
-
-    private void update( TreeMap<Integer, Integer> numCounter, int[] nums, int idx, boolean add) {
-        int num = nums[idx];
-        int count = numCounter.getOrDefault(num, 0);
-        count = add ? count + 1 : count - 1;
-        if (count > 0) {
-            numCounter.put(num, count);
-        } else {
-            numCounter.remove(num);
-        }
-    }
-}
+  }
 //leetcode submit region end(Prohibit modification and deletion)
-
 }
