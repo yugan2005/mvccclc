@@ -14,5 +14,8 @@
 * 5 result stage: as `end` sliding complete, `end` idx is one over the idx that first make the substring valid: matching what `length` and `substring` method expect.
 
 #### 3. `src/com/mvccclc/java/leetcode/editor/en/LongestSubstringWithoutRepeatingCharacters.java`
-* 5 result stage: should not and "could not" use the `if(!valid(charSet, s, end))` check. Because if the sliding complete, no matter due to slide `end` complete or out-of-bounds, we always should get and update the result. 
+* 5 result stage: should not and "could not" use the `if(!valid(charSet, s, end))` check. Because if the sliding complete, no matter due to slide `end` complete or out-of-bounds, we always should get and update the result.
+
+#### 239. `src/com/mvccclc/java/leetcode/editor/en/SlidingWindowMaximum.java`
+* not really a sliding window problem, but data structure problem of using Heap 
 
