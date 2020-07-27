@@ -6100,7 +6100,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "480",
-    "status": "",
+    "status": "ac",
     "title": "Sliding Window Median",
     "titleSlug": "sliding-window-median"
   },

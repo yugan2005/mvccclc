@@ -21,6 +21,15 @@
 * UPDATED: used monotonic queue data structure. referred to this solution: [youtube](https://youtu.be/2SXqBsTR6a8)
 
 #### 424. `LongestRepeatingCharacterReplacement.java`
-* 5 result stage: need distinguish how the slide of `end` completes. If it is due to `valid`, the `end` has moved an extra one position, on the other hand, if it is due to out-of-bounds, it does not move extra one position.  
+* 5 result stage: need distinguish how the slide of `end` completes. If it is due to `valid`, the `end` has moved an extra one position, on the other hand, if it is due to out-of-bounds, it does not move extra one position.
+
+#### 480. `SlidingWindowMedian`
+* like 239 not really a sliding window problem, but data structure problem of using Heap.
+* could not use the monotonic queue data structure anymore
+* For median, one trick is that for length of `k` no matter `k` is even or odd `median = arr[k / 2] + arr[(k -1) / 2]`
+
+#### 567. `PermutationInString`
+* typical sliding window template
+*  5 result stage: Although don't have to do the `valid` check, it does not hurt to follow this pattern.
 
 
