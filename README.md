@@ -37,4 +37,12 @@
 * 4. update stage, for equal case `sign == 0`, should not put into queue (otherwise, for `[9, 9]` will have issue)
 * 6. cleanup, `pollFirst()` is okay. Even for empty queue, this operation has no issue. 
 
+#### 995. `SubarraysWithKDifferentIntegers`
+* Very good sliding window problem
+* Need change the exact K into (at most K) - (at most K-1). Because at Most K fit sliding window paradigm.
+* 5 result stage: result not only add 1, but add end - start - 1 / end - start, so that it covers all cases with right boundary at end - 1 / end;
+* 5 result stage: Need handle `valid` or because of finish transverse DIFFERENTLY (as 424. `LongestRepeatingCharacterReplacement.java`)
+
+
+
 

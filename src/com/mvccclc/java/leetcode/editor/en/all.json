@@ -12540,7 +12540,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "1020",
-    "status": "",
+    "status": "ac",
     "title": "Longest Turbulent Subarray",
     "titleSlug": "longest-turbulent-subarray"
   },
@@ -16518,7 +16518,8 @@
     "titleSlug": "all-elements-in-two-binary-search-trees"
   },
   {
-    "articleLive": 0,
+    "articleLive": 1,
+    "articleSlug": "jump-game-iii",
     "formTitle": "[1306]Jump Game III",
     "frontendQuestionId": "1306",
     "leaf": true,
