@@ -13313,7 +13313,8 @@
     "titleSlug": "moving-stones-until-consecutive-ii"
   },
   {
-    "articleLive": 0,
+    "articleLive": 1,
+    "articleSlug": "robot-bounded-in-circle",
     "formTitle": "[1041]Robot Bounded In Circle",
     "frontendQuestionId": "1041",
     "leaf": true,

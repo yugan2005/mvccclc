@@ -30,6 +30,11 @@
 
 #### 567. `PermutationInString`
 * typical sliding window template
-*  5 result stage: Although don't have to do the `valid` check, it does not hurt to follow this pattern.
+* 5 result stage: Although don't have to do the `valid` check, it does not hurt to follow this pattern.
+
+#### 978. `LongestTurbulentSubarray`
+* 5. result stage, could not do `!vaid()` check. - Should not (finish transverse or !valid, all need update result), and could not (will have IndexOutBound issue).
+* 4. update stage, for equal case `sign == 0`, should not put into queue (otherwise, for `[9, 9]` will have issue)
+* 6. cleanup, `pollFirst()` is okay. Even for empty queue, this operation has no issue. 
 
 
