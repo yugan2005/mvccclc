@@ -12721,7 +12721,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "1034",
-    "status": "",
+    "status": "ac",
     "title": "Subarrays with K Different Integers",
     "titleSlug": "subarrays-with-k-different-integers"
   },
@@ -18392,7 +18392,8 @@
     "titleSlug": "make-two-arrays-equal-by-reversing-sub-arrays"
   },
   {
-    "articleLive": 0,
+    "articleLive": 1,
+    "articleSlug": "check-if-a-string-contains-all-binary-codes-of-size-k",
     "formTitle": "[1461]Check If a String Contains All Binary Codes of Size K",
     "frontendQuestionId": "1461",
     "leaf": true,
