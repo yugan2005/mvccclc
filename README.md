@@ -52,6 +52,11 @@
     * `overCountedFlip`: minus the accumulated flips that is `K` bits ahead of the current position, because that is over counted in the above step
     * `currFlip`: whether the current bit needs be flipped or not.
 * Also, need special handling when the remaining length is less than `K`, i.e. cannot flip anymore.
+
+#### 1004. `MaxConsecutiveOnesIii`
+* Very typical sliding window problem
+* 5 result stage: should not and need not the check `!valid`.
+* 4 update stage: need use return to update.
     
 
 

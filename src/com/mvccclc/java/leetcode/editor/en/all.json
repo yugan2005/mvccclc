@@ -12760,7 +12760,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "1037",
-    "status": "",
+    "status": "ac",
     "title": "Minimum Number of K Consecutive Bit Flips",
     "titleSlug": "minimum-number-of-k-consecutive-bit-flips"
   },
@@ -19243,5 +19243,17 @@
     "status": "",
     "title": "String Compression II",
     "titleSlug": "string-compression-ii"
+  },
+  {
+    "articleLive": 0,
+    "formTitle": "[1532]The Most Recent Three Orders",
+    "frontendQuestionId": "1532",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1671",
+    "status": "lock",
+    "title": "The Most Recent Three Orders",
+    "titleSlug": "the-most-recent-three-orders"
   }
 ]
