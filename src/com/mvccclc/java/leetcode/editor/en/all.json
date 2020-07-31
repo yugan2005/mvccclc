@@ -3821,7 +3821,8 @@
     "titleSlug": "binary-tree-longest-consecutive-sequence"
   },
   {
-    "articleLive": 0,
+    "articleLive": 1,
+    "articleSlug": "bulls-and-cows",
     "formTitle": "[299]Bulls and Cows",
     "frontendQuestionId": "299",
     "leaf": true,
@@ -12871,7 +12872,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "1046",
-    "status": "",
+    "status": "ac",
     "title": "Max Consecutive Ones III",
     "titleSlug": "max-consecutive-ones-iii"
   },
@@ -13308,7 +13309,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "1113",
-    "status": "",
+    "status": "notac",
     "title": "Moving Stones Until Consecutive II",
     "titleSlug": "moving-stones-until-consecutive-ii"
   },
@@ -19255,5 +19256,17 @@
     "status": "lock",
     "title": "The Most Recent Three Orders",
     "titleSlug": "the-most-recent-three-orders"
+  },
+  {
+    "articleLive": 0,
+    "formTitle": "[1533]Find the Index of the Large Integer",
+    "frontendQuestionId": "1533",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1672",
+    "status": "lock",
+    "title": "Find the Index of the Large Integer",
+    "titleSlug": "find-the-index-of-the-large-integer"
   }
 ]

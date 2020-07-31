@@ -57,8 +57,11 @@
 * Very typical sliding window problem
 * 5 result stage: should not and need not the check `!valid`.
 * 4 update stage: need use return to update.
-    
 
+#### 1040. `MovingStonesUntilConsecutiveIi`
+* A very hard problem, weird corner cases.
+* min steps part is sliding windows
+* hard part is to get the conner case of the `minMove`
 
 
 
