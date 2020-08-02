@@ -64,4 +64,22 @@
 * hard part is to get the conner case of the `minMove`
 
 
+#### 1052 `GrumpyBookstoreOwner`
+* typical sliding window problem
+* 5. result stage do not need valid, because cases are legitimate
+
+#### 1074 `NumberOfSubmatricesThatSumToTarget`
+* Not a typical sliding window problem
+* Important points
+    - Need use CumSum
+    - Need fix the topRow and bottomRow (in order to squash a 2D matrix in to a 1D array)
+    - Need "squash" the matrix cols into one row (2D -> 1D)
+    
+        x x x x x    
+        x x x x x  --> sum up by column --> y y y y y (squashed into an array)    
+        x x x x x     
+
+
+
+
 

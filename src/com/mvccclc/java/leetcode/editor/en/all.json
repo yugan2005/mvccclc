@@ -4262,7 +4262,8 @@
     "titleSlug": "largest-bst-subtree"
   },
   {
-    "articleLive": 0,
+    "articleLive": 1,
+    "articleSlug": "increasing-triplet-subsequence",
     "formTitle": "[334]Increasing Triplet Subsequence",
     "frontendQuestionId": "334",
     "leaf": true,
@@ -10017,7 +10018,7 @@
     "formTitle": "[784]Letter Case Permutation",
     "frontendQuestionId": "784",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
     "questionId": "800",
     "status": "",
@@ -12416,8 +12417,7 @@
     "titleSlug": "binary-tree-cameras"
   },
   {
-    "articleLive": 1,
-    "articleSlug": "pancake-sorting",
+    "articleLive": 0,
     "formTitle": "[969]Pancake Sorting",
     "frontendQuestionId": "969",
     "leaf": true,
@@ -13309,7 +13309,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "1113",
-    "status": "notac",
+    "status": "ac",
     "title": "Moving Stones Until Consecutive II",
     "titleSlug": "moving-stones-until-consecutive-ii"
   },
@@ -13457,7 +13457,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "1138",
-    "status": "",
+    "status": "ac",
     "title": "Grumpy Bookstore Owner",
     "titleSlug": "grumpy-bookstore-owner"
   },
@@ -13724,7 +13724,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "1145",
-    "status": "",
+    "status": "ac",
     "title": "Number of Submatrices That Sum to Target",
     "titleSlug": "number-of-submatrices-that-sum-to-target"
   },
