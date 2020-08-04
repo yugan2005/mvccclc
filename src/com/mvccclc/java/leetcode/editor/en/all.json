@@ -12417,7 +12417,8 @@
     "titleSlug": "binary-tree-cameras"
   },
   {
-    "articleLive": 0,
+    "articleLive": 1,
+    "articleSlug": "pancake-sorting",
     "formTitle": "[969]Pancake Sorting",
     "frontendQuestionId": "969",
     "leaf": true,
@@ -15340,7 +15341,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "1321",
-    "status": "",
+    "status": "ac",
     "title": "Get Equal Substrings Within Budget",
     "titleSlug": "get-equal-substrings-within-budget"
   },
@@ -17940,7 +17941,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "1538",
-    "status": "",
+    "status": "ac",
     "title": "Maximum Points You Can Obtain from Cards",
     "titleSlug": "maximum-points-you-can-obtain-from-cards"
   },
@@ -18124,7 +18125,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "1549",
-    "status": "",
+    "status": "ac",
     "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
     "titleSlug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit"
   },
@@ -19268,5 +19269,53 @@
     "status": "lock",
     "title": "Find the Index of the Large Integer",
     "titleSlug": "find-the-index-of-the-large-integer"
+  },
+  {
+    "articleLive": 0,
+    "formTitle": "[1534]Count Good Triplets",
+    "frontendQuestionId": "1534",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1656",
+    "status": "",
+    "title": "Count Good Triplets",
+    "titleSlug": "count-good-triplets"
+  },
+  {
+    "articleLive": 0,
+    "formTitle": "[1535]Find the Winner of an Array Game",
+    "frontendQuestionId": "1535",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1657",
+    "status": "",
+    "title": "Find the Winner of an Array Game",
+    "titleSlug": "find-the-winner-of-an-array-game"
+  },
+  {
+    "articleLive": 0,
+    "formTitle": "[1536]Minimum Swaps to Arrange a Binary Grid",
+    "frontendQuestionId": "1536",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1658",
+    "status": "",
+    "title": "Minimum Swaps to Arrange a Binary Grid",
+    "titleSlug": "minimum-swaps-to-arrange-a-binary-grid"
+  },
+  {
+    "articleLive": 0,
+    "formTitle": "[1537]Get the Maximum Score",
+    "frontendQuestionId": "1537",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1659",
+    "status": "",
+    "title": "Get the Maximum Score",
+    "titleSlug": "get-the-maximum-score"
   }
 ]

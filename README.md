@@ -79,6 +79,29 @@
         x x x x x  --> sum up by column --> y y y y y (squashed into an array)    
         x x x x x     
 
+#### 1208 `GetEqualSubstringsWithinBudget`
+* very typical sliding window problem
+
+#### 1423 `MaximumPointsYouCanObtainFromCards`
+* easier than typical sliding window problems.
+
+#### 1438 `LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit`
+##### Method 1 - ordered treeSet
+* Complexity is O(n*lgn)
+* Using ordered treeSet to get max and min
+* define class to distinguish two elements have the same value
+* the sliding is "reversed" than normal sliding
+    * `end` is move one by one
+    * `start` is sliding inside for loop
+    * the `cleanup` need be do at the beginning
+
+ ##### Method 2 - monotonic queue          
+* the logic in method 1 still apply. The only difference is replace the treeSet by two monotonic queues, one for min, and one for max. Complexity to be O(n)
+* the queue saves idx, not the value (this is typical for monotonic queue)
+* take 239. `SlidingWindowMaximum` as reference to understand how to write a monotonic queue. 
+ 
+#### 1456. `MaximumNumberOfVowelsInASubstringOfGivenLength`
+* Not a typical sliding window problem, because it is too easy.
 
 
 
