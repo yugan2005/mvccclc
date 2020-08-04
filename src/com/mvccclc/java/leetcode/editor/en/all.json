@@ -18341,7 +18341,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "1567",
-    "status": "",
+    "status": "ac",
     "title": "Maximum Number of Vowels in a Substring of Given Length",
     "titleSlug": "maximum-number-of-vowels-in-a-substring-of-given-length"
   },

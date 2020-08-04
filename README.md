@@ -103,6 +103,12 @@
 #### 1456. `MaximumNumberOfVowelsInASubstringOfGivenLength`
 * Not a typical sliding window problem, because it is too easy.
 
+#### 1498 `NumberOfSubsequencesThatSatisfyTheGivenSumCondition`
+* The `subsequences` is not a continuous subarray. It is just an element subset (see the problem's example)
+* Because order doesn't matter, we can sort it. (Critical, otherwise cannot use the sliding window)
+* Not a typical sliding window, it is more like a two-pointer problem. (no 4. update, and no 6. clean up). Move left side one-by-one, and moving the right side until valid.
+* In order to make sure it is not empty and no duplicate, we are moving the left side one-by-one. Always include the left endpoint.
+* The 2 power series need be precomputed.
 
 
 
