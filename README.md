@@ -89,7 +89,8 @@
 ##### Method 1 - ordered treeSet
 * Complexity is O(n*lgn)
 * Using ordered treeSet to get max and min
-* define class to distinguish two elements have the same value
+* define class to distinguish two elements have the same value. 
+    * Important: In Java `Comparable` class, if `compareTo()` method returns 0, it will be treated as `equal` in the set.
 * the sliding is "reversed" than normal sliding
     * `end` is move one by one
     * `start` is sliding inside for loop
@@ -110,5 +111,7 @@
 * In order to make sure it is not empty and no duplicate, we are moving the left side one-by-one. Always include the left endpoint.
 * The 2 power series need be precomputed.
 
-
+#### 1499 `MaxValueOfEquation`
+* Similar to 1438 
+* Good problem to practice the sliding window and monotonic queue.
 

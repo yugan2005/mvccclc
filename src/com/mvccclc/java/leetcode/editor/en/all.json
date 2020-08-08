@@ -2007,7 +2007,8 @@
     "titleSlug": "binary-tree-upside-down"
   },
   {
-    "articleLive": 0,
+    "articleLive": 1,
+    "articleSlug": "read-n-characters-given-read4",
     "formTitle": "[157]Read N Characters Given Read4",
     "frontendQuestionId": "157",
     "leaf": true,
@@ -18846,7 +18847,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "1621",
-    "status": "",
+    "status": "ac",
     "title": "Number of Subsequences That Satisfy the Given Sum Condition",
     "titleSlug": "number-of-subsequences-that-satisfy-the-given-sum-condition"
   },
@@ -19317,5 +19318,17 @@
     "status": "",
     "title": "Get the Maximum Score",
     "titleSlug": "get-the-maximum-score"
+  },
+  {
+    "articleLive": 0,
+    "formTitle": "[1538]Guess the Majority in a Hidden Array",
+    "frontendQuestionId": "1538",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1681",
+    "status": "lock",
+    "title": "Guess the Majority in a Hidden Array",
+    "titleSlug": "guess-the-majority-in-a-hidden-array"
   }
 ]
